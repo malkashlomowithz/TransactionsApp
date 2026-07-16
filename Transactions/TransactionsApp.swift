@@ -11,7 +11,8 @@ import SwiftUI
 struct TransactionsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TransactionsListView(service: TransactionsAPIService())
+                .preferredColorScheme(.light)
         }
     }
 }
