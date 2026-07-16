@@ -5,7 +5,7 @@ An iOS app for browsing and editing bank transactions, built with SwiftUI.
 ## Features
 
 - **Transaction list** — paginated, infinite-scrolling list of transactions with a jump-to-top button
-- **Transaction detail** — view and edit a transaction's description, type, and amount, with a save confirmation
+- **Transaction detail** — view and edit a transaction's description and type, with a save confirmation
 - **Live backend** — fetches data from a hosted transactions API
 
 ## Architecture
